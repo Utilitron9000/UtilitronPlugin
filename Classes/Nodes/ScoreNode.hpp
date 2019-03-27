@@ -3,6 +3,6 @@
 
 class ScoreNode : public UtilityGraphNode {
  public:
-	ScoreNode(string name);
-	float getOutput();
-}
+	ScoreNode(std::string name);
+	float getOutput() override;
+};

@@ -1,4 +1,4 @@
-#include "Nodes/ScoreNode.h"
+#include "Nodes/ScoreNode.hpp"
 #include "Exceptions.h"
 
 ScoreNode::ScoreNode(string name) {
